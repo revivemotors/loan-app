@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loan Application Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Loan Application Form</h1>
+        <form action="#" method="POST">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="amount">Loan Amount ($):</label>
+            <input type="number" id="amount" name="amount" required>
+
+            <label for="duration">Loan Duration (Years):</label>
+            <input type="number" id="duration" name="duration" required>
+
+            <label for="interest">Interest Rate (%):</label>
+            <input type="number" id="interest" name="interest" required>
+
+            <button type="submit">Apply Now</button>
+        </form>
+    </div>
+</body>
+</html>
+
